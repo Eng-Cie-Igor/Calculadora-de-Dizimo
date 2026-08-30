@@ -14,25 +14,25 @@ body {
   border-radius: 16px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   text-align: center;
-  width: 320px;
+  width: 450px;
 }
 
 h1 {
-  font-size: 26px;
+  font-size: 32px;
   color: #4e342e;
   margin-bottom: 10px;
 }
 
 .pergunta {
-  font-size: 18px;
+  font-size: 22px;
   color: #333;
   margin-bottom: 20px;
 }
 
 input {
   width: 100%;
-  padding: 16px;
-  font-size: 20px;
+  padding: 22px;
+  font-size: 26px;
   border-radius: 10px;
   border: 2px solid #d7ccc8;
   box-sizing: border-box;
@@ -41,11 +41,11 @@ input {
 
 button {
   width: 100%;
-  padding: 16px;
+  padding: 20px;
   margin-top: 20px;
   border-radius: 10px;
   border: none;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: bold;
   color: white;
   background-color: #b8860b;
@@ -57,7 +57,7 @@ button:hover {
 }
 
 .resultadoTexto {
-  font-size: 20px;
+  font-size: 24px;
   color: #333;
   margin: 16px 0;
 }
