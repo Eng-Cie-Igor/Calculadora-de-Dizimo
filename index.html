@@ -2,6 +2,7 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Calculadora de Dízimo</title>
   <link rel="stylesheet" href="style.css">
 </head>
@@ -9,7 +10,6 @@
 
   <div class="container">
 
-    <!-- Etapa 1: pergunta -->
     <div id="etapaPergunta">
       <h1>Calculadora de Dízimo</h1>
       <p class="pergunta">Quanto você ganhou esse mês?</p>
@@ -19,11 +19,10 @@
       <button onclick="calcular()">Calcular</button>
     </div>
 
-    <!-- Etapa 2: resultado (começa escondida) -->
     <div id="etapaResultado" class="escondido">
       <h1>Pronto! ✅</h1>
-      <p class="resultadoTexto" id="fraseDizimo">Seu dízimo é R$ 0,00 Reais</p>
-      
+      <p class="resultadoTexto" id="fraseDizimo">Seu dízimo é R$ 0,00</p>
+      <p class="resultadoTexto" id="fraseOferta">Sua oferta sugerida é R$ 0,00</p>
 
       <button onclick="calcularNovamente()">Calcular de novo</button>
     </div>
