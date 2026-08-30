@@ -39,7 +39,7 @@ function calcular() {
 
   var dizimo = renda * 0.10;
 
-  var fraseDizimo = "Seu dízimo é R$ " + dizimo.toFixed(2).replace(".", ",");
+  var fraseDizimo = "Seu dízimo é R$ " + dizimo.toFixed(2).replace(".", ",") + " Reais";
   
   document.getElementById("fraseDizimo").innerText = fraseDizimo;
   
